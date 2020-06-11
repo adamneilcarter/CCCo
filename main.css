@@ -152,7 +152,7 @@ header {
 
 
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1000px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -160,7 +160,7 @@ header {
   }
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1000px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
@@ -173,7 +173,7 @@ header {
     text-align: left;
   }
 }
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1000px) {
   #myVideo {
     display:none;
   }
