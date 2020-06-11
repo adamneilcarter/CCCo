@@ -16,7 +16,7 @@
 
       <div class="topnav" id="myTopnav">
         <a href="#home" class="active">Home</a>
-        <a href="#process">Process</a>
+        <a href="images/rocketvideo.mp4">Process</a>
         <a href="#blog">Blog</a>
         <a href="#shop">Shop</a>
         <a href="#contact">Contact</a>
@@ -26,17 +26,26 @@
       </div>
 
     </div>
-
+    <video autoplay muted loop id="myVideo">
+      <source src="images/rocketvideo.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
 
 
 
 <div class="content">
 
+<div class="keyword">
+  <div class="background">
 
-  <h3 class="keyword background">This is Ryan's mission statement<br>It really means something<br>important</h3>
 
+  <h3>This is Ryan's mission statement<br>It really means something<br>important</h3>
 
 </div>
+
+</div>
+</div>
+
 
 <h1>lots of extra content for stickyness</h1>
 <h1>lots of extra content for stickyness</h1>
@@ -80,5 +89,21 @@ function myFunction() {
   }
 }
 </script>
+
+<script>
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+function myFunction2() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
+<button id="myBtn" onclick="myFunction2()">Pause</button>
   </body>
 </html>

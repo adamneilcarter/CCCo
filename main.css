@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #6af4ff;
+background-color: #6af4ff;
 
 }
 header {
@@ -41,6 +41,7 @@ header {
 }
 .content  {
   background: url("images/applecar720960.jpg") no-repeat center center fixed;
+  opacity: 0.9;
   min-height: 80vh;
   background-size:contain;
   display: flex;
@@ -49,12 +50,14 @@ header {
 }
 .background {
   background-color: rgba(106,244,255, 0.3);
+
 }
 .keyword  {
   text-align: center;
   font-size: 2em;
   padding: 1.5em;
   border-radius: 10px;
+  margin-top: 250px;
 }
 
 
@@ -70,11 +73,37 @@ header {
 .sticky + .content {
   padding-top: 60px;
 }
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100vh;
+  z-index: -1;
+  min-height: 80vh;
+  background-size:contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 
 
+#myBtn {
+  width: 200px ;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
 
+#myBtn:hover {
+  background: #ddd;
+  color: black;
 
+}
 
 
 
