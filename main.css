@@ -1,49 +1,81 @@
 body {
   font-family: sans-serif;
-
   color: black;
 }
-.header {
+
+header {
   text-align: center;
-}
-.topnav{
-display: block;
-position: relative;
-overflow: hidden;
-width: 75%;
 }
 
-.topnav a {
-  color: black;
-  text-align: center;
-  text-decoration: none;
-  font-size: 2em;
-  padding: 15px 15px;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+a {
   float: left;
-  margin: auto;
-
 }
 
-
-
-.topnav a:hover {
-  background-color: white;
+a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
+
+a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
 .topnav .icon {
   display: none;
 }
-
-
-
-
-.journey_image {
-  background: url(images/applecar.jpg) no-repear center center fixed;
-  min-height: 100vh;
+.content {
+  padding: 16px;
 }
 
-.background {
-  #d8d8d8;
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+
+
+
+
 
 
 
