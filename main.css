@@ -1,6 +1,6 @@
 body {
   font-family: sans-serif;
-  background-color: #37ccc7;
+
   color: black;
 }
 .header {
@@ -25,10 +25,7 @@ width: 75%;
 }
 
 
-.topnav a:active {
-  background-color: grey;
-  color: white;
-}
+
 .topnav a:hover {
   background-color: white;
 }
@@ -36,24 +33,17 @@ width: 75%;
   display: none;
 }
 
-.container {
-  display: flex;
-  flex-direction: row;
+
+
+
+.journey_image {
+  background: url(images/applecar.jpg) no-repear center center fixed;
+  min-height: 100vh;
 }
 
-.background_image {
-  background: url(images\applecar.jpg) no repeat center, opacity:0.3;
-  width: 75%;
-  height: 300px;
-  width: auto;
-
-
-
+.background {
+  #d8d8d8;
 }
-
-
-
-
 
 
 
