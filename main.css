@@ -7,6 +7,9 @@ body {
 header {
   text-align: center;
   padding: 15px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.6em;
+
 }
 
 .topnav {
