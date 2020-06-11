@@ -78,16 +78,16 @@ header {
   padding-top: 60px;
 }
 #myVideo {
+
   position: fixed;
-  min-height: 70vh;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
   width: auto;
-  background-size:cover;
-  display: flex;
-  align-items: left;
-  justify-content: center;
-  z-index: -1;
-
-
+  height: auto;
+  z-index: -100;
+  transform: translate(-50%, -50%);
 }
 
 
