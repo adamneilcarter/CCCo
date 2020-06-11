@@ -132,6 +132,17 @@ header {
     right: 0;
     top: 0;
   }
+
+  @media screen and (max-width: 1000px) {
+    #myVideo {
+      display:none;
+    }
+    #myBtn{
+      display:none;
+    }
+    }
+
+
   .topnav.responsive a {
     float: none;
     display: block;
