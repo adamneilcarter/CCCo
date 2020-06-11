@@ -46,7 +46,7 @@ header {
 .content  {
   background: url("images/applecar720960.jpg") no-repeat center center fixed;
   opacity: 0.9;
-  min-height: 80vh;
+  min-height: 70vh;
   background-size:contain;
   display: flex;
   align-items: center;
