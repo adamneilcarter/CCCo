@@ -48,10 +48,10 @@ header {
 .content  {
   background: url("images/applecar720960.jpg") no-repeat center center scroll;
   opacity: 0.9;
-  min-height: 100vh;
+  min-height: 80vh;
 
   background-size:cover;
-  -webkit-background-size:cover; 
+  -webkit-background-size:cover;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -151,7 +151,7 @@ header {
   }
   }
 
-  @media screen and (min-width: 960px) {
+  @media screen and (min-width: 768px) {
 .content {
   background-size:contain;
     }
