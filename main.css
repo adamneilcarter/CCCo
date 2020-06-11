@@ -6,7 +6,7 @@ body {
 }
 header {
   text-align: center;
-  padding: 15px;
+
   font-family: 'Indie Flower', cursive;
   font-size: 1.6em;
 
@@ -118,7 +118,7 @@ header {
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -126,7 +126,7 @@ header {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
